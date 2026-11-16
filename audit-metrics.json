@@ -1,0 +1,80 @@
+{
+  "css": {
+    "shared": {
+      "declarations_before": 2514,
+      "declarations_after": 2308,
+      "rules_after": 700
+    },
+    "desktop": {
+      "declarations_before": 8190,
+      "declarations_after": 7246,
+      "rules_after": 2120
+    },
+    "mobile": {
+      "declarations_before": 3742,
+      "declarations_after": 3564,
+      "rules_after": 943
+    },
+    "landing-desktop": {
+      "declarations_before": 438,
+      "declarations_after": 376,
+      "rules_after": 122
+    },
+    "landing-mobile": {
+      "declarations_before": 429,
+      "declarations_after": 367,
+      "rules_after": 120
+    }
+  },
+  "media_removed_unreferenced": [
+    "home-reference.jpg",
+    "logo-transparente.svg",
+    "header-fundo.svg",
+    "logo.png",
+    "globo-abertura.mp4",
+    "header-fundo.png",
+    "puntos.jpg",
+    "globo-animado.webp",
+    "header.jpg",
+    "whatsapp.svg",
+    "nav-reference.jpg",
+    "cena.jpg",
+    "globo.mp4",
+    "header-n-original.png"
+  ],
+  "original_bytes": 88168054,
+  "clean_bytes": 34268020,
+  "original_files": 173,
+  "clean_files": 79,
+  "reduction_percent": 61.1,
+  "browser_checks": {
+    "desktop_routes": 13,
+    "mobile_routes": 5,
+    "viewports_css_pixels": [
+      [
+        1366,
+        768
+      ],
+      [
+        1536,
+        864
+      ],
+      [
+        1280,
+        720
+      ],
+      [
+        402,
+        874
+      ],
+      [
+        360,
+        800
+      ]
+    ],
+    "hardware_tested": false,
+    "browser": "Chrome",
+    "pdf_download_completed": true,
+    "direct_points_route_fixed": true
+  }
+}

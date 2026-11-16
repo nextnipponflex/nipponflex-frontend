@@ -1,0 +1,107 @@
+/* Final approved Desktop point indicators. One source of truth. */
+@media (min-width: 1024px) {
+  #content .report-content > .dn-stat-cards {
+    display: grid !important;
+    grid-template-columns: repeat(6, minmax(0, 1fr)) !important;
+    gap: 10px !important;
+    align-items: stretch;
+  }
+  #content .report-content > .dn-stat-cards > .dn-stat-card {
+    position: relative;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    justify-content: flex-start !important;
+    box-sizing: border-box;
+    min-width: 0;
+    height: 110px !important;
+    min-height: 110px !important;
+    padding: 6px 12px !important;
+    gap: 0 !important;
+    background: #fff !important;
+    border: 1px solid #f0f0f0 !important;
+    border-radius: 15px !important;
+    box-shadow: 0 1px 5px #0000000a !important;
+    font-family: Arial, sans-serif;
+  }
+  #content .dn-stat-cards .dn-stat-card .rf-metric-heading {
+    display: block !important;
+    width: auto !important;
+    min-height: 24px;
+    padding-right: 31px;
+    flex: none;
+  }
+  #content .dn-stat-cards .dn-stat-card .dn-stat-title {
+    display: block;
+    color: #606060 !important;
+    font-size: 12px !important;
+    font-weight: 500;
+    line-height: 16px !important;
+    overflow-wrap: anywhere;
+  }
+  #content .dn-stat-cards .dn-stat-card .dn-stat-icon {
+    position: absolute;
+    top: 10px;
+    right: 11px;
+    display: grid !important;
+    place-items: center;
+    width: 29px !important;
+    height: 29px !important;
+    margin: 0;
+    background: #f7f7f7 !important;
+    border-radius: 50% !important;
+    color: #858585 !important;
+  }
+  #content .dn-stat-cards .dn-stat-icon svg { width: 19px !important; height: 19px !important; }
+  #content .dn-stat-cards .dn-stat-card > .dn-stat-value {
+    position: absolute;
+    top: 34px;
+    left: 12px;
+    right: 12px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    height: 35.2px;
+    min-height: 35.2px !important;
+    margin-top: 0 !important;
+    color: #0b224b !important;
+    text-align: center !important;
+    font-size: 32px !important;
+    font-weight: 600;
+    line-height: 1.1 !important;
+    letter-spacing: -1px !important;
+    white-space: nowrap !important;
+    overflow-wrap: normal !important;
+    flex: none;
+  }
+  #content .dn-stat-cards .dn-stat-card:nth-child(n+5) > .dn-stat-value {
+    font-size: 16px !important;
+    line-height: 18px !important;
+    letter-spacing: 0 !important;
+    white-space: normal !important;
+  }
+  #content .dn-stat-cards .dn-stat-card .dn-stat-footer {
+    display: flex !important;
+    align-items: center;
+    gap: 4px;
+    min-width: 0;
+    margin-top: auto !important;
+    padding-top: 0 !important;
+    color: #8b8b8b;
+    font-size: 12px !important;
+    line-height: 16px !important;
+  }
+  #content .dn-stat-cards .dn-stat-footer > span:last-child { min-width: 0; }
+  #content .dn-stat-cards .dn-stat-card .dn-stat-trend {
+    display: grid;
+    place-items: center;
+    width: 11px;
+    height: 11px;
+    flex: none;
+    border: 1px solid #4f77e666;
+    border-radius: 3px;
+    color: #4f77e6;
+    font-size: 9px;
+    line-height: 1;
+  }
+}
